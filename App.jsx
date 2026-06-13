@@ -28,7 +28,7 @@ function App() {
     fd.append('user_name', userName)
     if(file) fd.append('file', file)
     try {
-      const res = await axios.post('http://localhost:8080/analyze-resume', fd)
+      const res = await axios.post('https://careerverse-backend-ntg4.onrender.com/analyze-resume', fd)
       setResult(res.data); setUserXP(res.data.xp.total); setMatchPercent(res.data.skill_gap.match)
       setCompletedQuests([]); setAcquiredSkills([])
     } catch(e) { setError('Backend not running. Start on port 8080.') }
