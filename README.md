@@ -1,3 +1,77 @@
+# CareerVerse AI
+
+## Overview
+
+CareerVerse AI is a gamified career adventure platform that transforms resumes into interactive career journeys.
+
+Users upload their resume and receive:
+
+- Career Match Analysis
+- Skill Gap Detection
+- Dynamic Quests
+- XP & Level System
+- Achievement Badges
+- AI Career Story
+- Personalized Roadmap
+- Career Mentor Guidance
+
+## Features
+
+### Resume Intelligence
+Extracts:
+- Skills
+- Projects
+- Certifications
+- Education
+
+### Gamification
+- XP System
+- Levels
+- Career Ranks
+- Badges
+- Quests
+
+### Career Guidance
+- Skill Gap Analysis
+- Learning Roadmap
+- Interview Preparation
+
+## Tech Stack
+
+Frontend:
+- React
+- Vite
+
+Backend:
+- FastAPI
+- Python
+- PyPDF
+
+## GitHub Copilot Usage
+
+GitHub Copilot was used during development for:
+- FastAPI API generation
+- React component development
+- Resume analysis functions
+- Quest generation logic
+- Story generation logic
+
+## Microsoft IQ Inspired Architecture
+
+Resume Upload
+→ Resume Intelligence Layer
+→ Skill Extraction
+→ Career Analysis
+→ Quest Generation
+→ Story Generation
+→ Career Mentor
+
+## Future Scope
+
+- Azure OpenAI Integration
+- Microsoft AI Foundry Integration
+- Real-time Job Recommendations
+- AI Interview Simulator
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
